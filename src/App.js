@@ -21,11 +21,25 @@ export const WeatherIcons = {
   "11n": "/react-weather-app/icons/storm.svg",
 };
 function App() {
+  const [city, updateCity] = useState();
+  const [weather, updateWeather] = useState();
+  const fetchWeather = async (e) => {
+    e.preventDefault();
+    const response = await Axios.get(
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=fe4feefa8543e06d4f3c66d92c61b69c`,
+    );
+    updateWeather(response.data);
+  };
   return (
-    <div>
-
-    </div>
-  )
+    <Container>
+      <AppLabel>React Weather App</AppLabel>
+      {city && weather ? (
+        <WeatherComponent weather={weather} city={city} />
+      ) : (
+        <CityComponent updateCity={updateCity} fetchWeather={fetchWeather} />
+      )}
+    </Container>
+  );
 }
 
 export default App
