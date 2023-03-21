@@ -9,3 +9,15 @@ export const WeatherInfoIcons = {
     wind: "/react-weather-app/icons/wind.svg",
     pressure: "/react-weather-app/icons/pressure.svg",
 };
+const WeatherInfoComponent = (props) => {
+    const {name, value} = props;
+    return (
+        <InfoContainer>
+            <InfoIcon src={WeatherInfoIcons[name]}/>
+            <InfoLabel>
+                {value}
+                <span>{name}</span>
+            </InfoLabel>
+        </InfoContainer>
+    );
+};
