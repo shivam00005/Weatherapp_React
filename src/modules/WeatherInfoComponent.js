@@ -3,11 +3,11 @@ import styled from "styled-components";
 import {WeatherIcons} from "../App";
 
 export const WeatherInfoIcons = {
-    sunset: "/icons/temp.svg",
-    sunrise: "/icons/temp.svg",
-    humidity: "/icons/humidity.svg",
-    wind: "/icons/wind.svg",
-    pressure: "/icons/pressure.svg",
+    sunset: "/Weatherapp_React/icons/temp.svg",
+    sunrise: "/Weatherapp_React/icons/temp.svg",
+    humidity: "/Weatherapp_React/icons/humidity.svg",
+    wind: "/Weatherapp_React/icons/wind.svg",
+    pressure: "/Weatherapp_React/icons/pressure.svg",
 };
 const WeatherInfoComponent = (props) => {
     const {name, value} = props;
