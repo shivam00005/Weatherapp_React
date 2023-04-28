@@ -11,9 +11,9 @@ This weather app was created to help developers learn how to work with React and
 ## Screenshots :camera:
 
 <div class="image-grid">
-<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/home-page.png" alt="home page" width="450" height="400">
+<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/home-page.png" alt="home page" width="410" height="400">
 
-<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/searched-page.png" alt="searched page" width="450" height="400">
+<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/searched-page.png" alt="searched page" width="410" height="400">
 </div>
 
 ## Demo :information_desk_person:	
@@ -23,11 +23,11 @@ Live link to visit Weather web app: https://shivam00005.github.io/Weatherapp_Rea
 
 ## Installation :hammer:
 
-## Getting Started with Create React App :tada:	
+### Getting Started with Create React App :tada:	
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -64,7 +64,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
