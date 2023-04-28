@@ -1,5 +1,5 @@
 
-# Weather Web App
+# Weather Web App How & why :interrobang:
 
 The weather app developed using React and Fetch API is a simple yet powerful tool that allows users to enter a city name and get real-time weather reports for that city. The app provides weather coverage worldwide, making it an essential tool for anyone who wants to stay informed about weather conditions in different parts of the world.
 
@@ -8,20 +8,22 @@ The app's user interface is clean and intuitive, making it easy for users to nav
 This weather app was created to help developers learn how to work with React and APIs. By building this app, developers can gain a better understanding of how to use React components, state, and props to create a dynamic user interface. Additionally, the app provides a practical example of how to work with APIs to retrieve and display data in a web application. Overall, this weather app is a valuable resource for developers who want to learn more about building web applications with React and APIs.
 
 
-## Screenshots
+## Screenshots :camera:
 
-<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/home-page.png" alt="home page" width="400" height="400">
+<div class="image-grid">
+<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/home-page.png" alt="home page" width="450" height="400">
 
-<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/searched-page.png" alt="searched page" width="400" height="400">
+<img src="https://raw.githubusercontent.com/shivam00005/Weatherapp_React/master/screenshot/searched-page.png" alt="searched page" width="450" height="400">
+</div>
 
-## Demo
+## Demo :information_desk_person:	
 
 Live link to visit Weather web app: https://shivam00005.github.io/Weatherapp_React/
 
 
-## Installation
+## Installation :hammer:
 
-# Getting Started with Create React App
+## Getting Started with Create React App :tada:	
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -85,7 +87,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 
-### Deployment
+## Deployment :computer:
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
@@ -94,13 +96,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-## :email:Feedback
+## Feedback :email:
 
 If you have any feedback, please reach out to us at sharmn6395960@gmail.com
 
 
-## :scroll:License
+## License :scroll:
 
-Copyright (c) 2021 Shivam Sharma
+Copyright (c) 2023 Shivam Sharma
 
-Licensed under the MIT License, available here: https://github.com/shivam00005/Hangman/blob/master/LICENSE
+Licensed under the MIT License, available here: https://github.com/shivam00005/Weatherapp_React/blob/master/LICENSE
